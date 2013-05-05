@@ -1,0 +1,38 @@
+1.
+    Inhibitor a sync jen v objektove siti? V metodach nelze? Smazalo mi to èást kodu. - Ano, pouze v objektove siti.
+2.
+    Když chci všechny znaèky z místa? Jak to zapíšu pomocí multimnožin?
+    - øešíme, buï pomocí místa se stavem a vhodnì zvolené stráže. Nebo pomocí pøechodu se zámkem (místo v cond a stráž, jestli je prázdný, nebo nìco má)
+    
+    viz. Knihovna vzorù Petriho sítí, Hanák Martin
+    
+MODEL:
+    conference
+        - poøešit set, get, propEmpty, atp. (nefunguje != ), takže nameEmpty a descEmpty jsou zatím pøekroucenì pøes inhibitor
+        - pridelat praci s location a stavy
+        
+    member
+        - doøešit address, email
+        - nefunguje kontrola, zda už pod sebou má nìjaký paper !!!
+        
+    paper
+        - ošetøovat, že autor je author
+        
+    celkove
+        - kdyz pridam autora paperu, tak bych mohl nastavit autorovi, ze ma tento paper, a opacne, ale dochazi k zacykleni
+        - mohu v akcich pouzivat smalltalk normalne? Respektive Squeak? Ne, pouze v omezene mire.
+
+
+uloziste:
+^
+
+rozhraní
+seaside, breakpoint
+
+dodelat:
+nastaveni konference siti. Veskere akce provadi nad danou konferenci - ovlivnuje i konferenci teda.
+
+schuzka:
+testovat na porte, ale provádìt pøes metody
+seaside je nìco jako MVC, má kontroler, a volá view (renderContentOn) promìnné se získávají pøes stejnomìnné metody (bez dvojteèky je get, s dvojteèkou je set). Prozkoušet si tøeba na tom pøíkladu a pak udìlat pro sebe nìco. Mìlo by to být easy ;)
+Poslat zdrojáky
