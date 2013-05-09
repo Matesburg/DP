@@ -1,0 +1,7 @@
+PNtalk
+    * nefunguje operator !=, pri vlozeni do kodu a jeho provadeni to hlasi Error
+    * pøi stisku pravého myšítka v editaèním oknì to háže Error
+    * compilátor uzná definici akce u synchronního portu, i když dle definice OOPN tam akce být nemá        
+
+PNtalk + Seaside
+    * Garbage Collector odstrani objekty, na ktere je reference ze Seaside komponenty, ale ne z PNtalkovskych objektu
