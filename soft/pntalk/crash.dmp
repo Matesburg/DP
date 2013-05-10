@@ -1,0 +1,113 @@
+---------------------------------------------------------------------
+Fri May 10 00:31:13 2013
+
+Exception code: C0000005
+Exception addr: 004199FA
+Access violation (read access) at A5FFD194
+EAX:00000003	EBX:930083EC	ECX:00000000	EDX:A5FFD194
+ESI:12FF4DA8	EDI:00000000	EBP:00000001	ESP:000CF9A0
+EIP:004199FA	EFL:00210206
+FP Control: 0000027F
+FP Status:  00000120
+FP Tag:     0000FFFF
+
+
+Hardware information: 
+	Manufacturer: Unknown
+	Model: Unknown
+	Number of processors: 2
+	Page size: 4096
+
+Memory Information (upon launch):
+	Physical Memory Size: 4193380 kbytes
+	Physical Memory Free: 1519980 kbytes
+	Page File Size: 4194303 kbytes
+	Page File Free: 4194303 kbytes
+	Virtual Memory Size: 2097024 kbytes
+	Virtual Memory Free: 2030272 kbytes
+	Memory Load: 63 percent
+
+Processor 0: Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 23 Stepping 6
+	~MHZ: 2394
+
+Processor 1: Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 23 Stepping 6
+	~MHZ: 2394
+
+Operating System: Windows 7 Professional (Build 7601 Service Pack 1)
+	Registered Owner: Matron
+	Registered Company: 
+	SP major version: 1
+	SP minor version: 0
+	Suite mask: 100
+	Product type: 1
+
+Display Information: 
+	Graphics adapter name: ATI Mobility Radeon HD 3650
+	Primary monitor resolution: 1440 x 900
+
+Device: RDPDD Chained DD
+	Adapter String: ???
+	Bios String: ???
+	Chip Type: ???
+	DAC Type: ???
+	Memory Size: 0xFFFFFFFF
+
+Driver Versions:
+	RDPDD: 
+
+VM Version: Squeak4.1.1 from Jul 27 2010
+
+Current byte code: 240
+Primitive index: 0
+
+Loaded plugins:
+	SocketPlugin 3 April 2010 (i)
+	LargeIntegers v1.5 3 April 2010 (i)
+	Matrix2x3Plugin 3 April 2010 (i)
+	FloatArrayPlugin 3 April 2010 (i)
+	B2DPlugin 3 April 2010 (i)
+	BitBltPlugin 3 April 2010 (i)
+	SecurityPlugin 3 April 2010 (i)
+	FilePlugin 3 April 2010 (i)
+	MiscPrimitivePlugin 3 April 2010 (i)
+
+The Smalltalk Stack:
+319052556 Encoder>name:key:class:type:set:
+319052464 Encoder>encodeSelector:
+319051156 MessageNode>receiver:selector:arguments:precedence:from:
+319050904 MessageNode>receiver:selector:arguments:precedence:from:sourceRange:
+318962468 Parser>messagePart:repeat:
+318965420 Parser>expression
+318858100 Parser>statements:innerBlock:
+318850392 Parser>method:context:encoder:
+318844784 [] in Parser>parse:class:noPattern:context:notifying:ifFail:
+318844040 BlockContext>on:do:
+318839576 Parser>parse:class:noPattern:context:notifying:ifFail:
+318836416 Parser>parse:class:
+318835752 CompiledMethod>methodNode
+318835660 Decompiler>decompileBlock:
+318835292 BlockContext>decompile
+318833960 BlockContext>printOn:
+318833868 [] in Object>printStringLimitedTo:
+318833740 >streamContents:limitedTo:
+318833648 Object>printStringLimitedTo:
+318833556 Object>printString
+318827052 [] in Debugger>newStack:
+318826444 OrderedCollection>collect:
+318826352 Debugger>newStack:
+318826260 Debugger>expandStack
+318825764 Debugger>buildMorphicNotifierLabelled:message:
+318823824 Debugger>openNotifierContents:label:
+318818436 [] in >openOn:context:label:contents:fullView:
+318818344 BlockContext>on:do:
+318805252 [] in >openOn:context:label:contents:fullView:
+318817608 WorldState>runStepMethodsIn:
+318817516 PasteUpMorph>runStepMethods
+318808032 WorldState>doOneCycleNowFor:
+318806056 WorldState>doOneCycleFor:
+318805964 PasteUpMorph>doOneCycle
+318804668 [] in >spawnNewProcess
+318804852 [] in BlockContext>newProcess
+
