@@ -120,7 +120,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -383,7 +383,7 @@
              height="303.34879"
              x="38.183765"
              y="32.667328" /></flowRegion><flowPara
-           id="flowPara5510"></flowPara></flowRoot>      <rect
+           id="flowPara5510" /></flowRoot>      <rect
          style="fill:#dcdcdc;fill-opacity:1;stroke:#000000;stroke-width:1.02630901;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
          id="rect2995-4-0"
          width="79.178299"
@@ -514,7 +514,7 @@
            sodipodi:role="line"
            id="tspan6744"
            x="137.64236"
-           y="-814.60651">prediktor</tspan></text>
+           y="-814.60651">predikát</tspan></text>
       <path
          style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0"
          d="m 237.71654,83.031477 0,50.000003 20,10"
