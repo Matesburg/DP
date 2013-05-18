@@ -1,9 +1,10 @@
 PNtalk
     * nefunguje operator !=, pri vlozeni do kodu a jeho provadeni to hlasi Error
     * pøi stisku pravého myšítka v editaèním oknì to háže Error
-    * compilátor uzná definici akce u synchronního portu, i když dle definice OOPN tam akce být nemá
+    * compilátor uzná definici akce u synchronního portu (ale neprovadi ji), i když dle definice OOPN tam akce být nemá
     * nelze operovat s objekty true, false, nil
         napø. postcond return(1'nil)                
+    * ve stráži jsem se nepohodl s operátorem or |
 
 PNtalk + Seaside
     * Garbage Collector odstrani objekty, na ktere je reference ze Seaside komponenty, ale ne z PNtalkovskych objektu
