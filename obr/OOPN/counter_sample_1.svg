@@ -15,7 +15,7 @@
    inkscape:label="Pozadí"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="counter_sample.svg">
+   sodipodi:docname="counter_sample_1.svg">
   <defs
      id="defs3">
     <marker
@@ -86,12 +86,12 @@
      inkscape:cx="319.30546"
      inkscape:cy="57.720067"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3768"
      showgrid="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="1028"
-     inkscape:window-x="1432"
-     inkscape:window-y="-8"
+     inkscape:window-width="1376"
+     inkscape:window-height="878"
+     inkscape:window-x="56"
+     inkscape:window-y="142"
      inkscape:window-maximized="1"
      fit-margin-top="3"
      fit-margin-left="5"
@@ -583,7 +583,7 @@
              height="303.34879"
              x="38.183765"
              y="32.667328" /></flowRegion><flowPara
-           id="flowPara5510"></flowPara></flowRoot>      <text
+           id="flowPara5510" /></flowRoot>      <text
          xml:space="preserve"
          style="font-size:11px;font-style:oblique;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Oblique"
          x="173.10962"
@@ -696,7 +696,7 @@
            sodipodi:role="line"
            id="tspan5613"
            x="388.07056"
-           y="-1004.7938">počáteční začení</tspan></text>
+           y="-1004.7938">počáteční značení</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:11px;font-style:oblique;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Oblique"
